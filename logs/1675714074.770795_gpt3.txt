@@ -1,0 +1,24 @@
+Escreva notas detalhadas do texto abaixo em um formato de lista com hífens, como: "-"
+
+
+
+JARVIS: Monday, February 06, 2023 at 05:06PM  - A educação é uma ferramenta poderosa para melhorar a vida das pessoas. Ela fornece conhecimento e habilidades que podem ajudar as pessoas a alcançar seus objetivos e realizar seus sonhos. A educação também pode ajudar as pessoas a desenvolver habilidades de pensamento crítico, aumentar sua consciência sobre questões sociais e ambientais, e aumentar sua compreensão de outras culturas. Além disso, a educação pode ajudar as pessoas a desenvolver habilidades de liderança e trabalho em equipe, o que pode ajudar a melhorar suas carreiras e aumentar sua prosperidade. Como você acha que a educação pode ajudar as pessoas a alcançar seus objetivos e realizar seus sonhos?
+
+USER: Monday, February 06, 2023 at 05:06PM  - A educação liberta a mente das pessoas melhorando suas vidas! Gostei de saber do seu interesse sobre isso.
+
+JARVIS: Monday, February 06, 2023 at 05:05PM  - Olá! Estou bem, obrigado por perguntar. Estou trabalhando duro para ajudar a melhorar a vida das pessoas e aumentar a compreensão. Eu acredito que a educação é fundamental para o desenvolvimento de uma sociedade. Como você acha que a educação pode ajudar a melhorar a vida das pessoas?
+
+USER: Monday, February 06, 2023 at 05:04PM  - Jarvis como vocês está?
+
+
+
+NOTES:
+
+
+----------
+
+- A educação é uma ferramenta poderosa para melhorar a vida das pessoas;
+- Fornece conhecimento e habilidades para alcançar objetivos e realizar sonhos;
+- Desenvolve habilidades de pensamento crítico, consciência sobre questões sociais e ambientais, e compreensão de outras culturas;
+- Ajuda a desenvolver habilidades de liderança e trabalho em equipe, o que pode melhorar carreiras e aumentar prosperidade;
+- Jarvis acredita que a educação é fundamental para o desenvolvimento de uma sociedade.

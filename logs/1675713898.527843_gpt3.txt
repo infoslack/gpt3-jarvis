@@ -1,0 +1,19 @@
+Escreva notas detalhadas do texto abaixo em um formato de lista com hífens, como: "-"
+
+
+
+
+
+
+
+NOTES:
+
+
+----------
+
+O texto aborda a importância da educação para o desenvolvimento de uma sociedade.
+- Educação é fundamental para o desenvolvimento de uma sociedade: ela é a base para o crescimento econômico, a melhoria da qualidade de vida e a promoção da igualdade social.
+- A educação é a chave para o desenvolvimento de habilidades e conhecimentos que permitem aos indivíduos serem mais produtivos e contribuir para o crescimento econômico.
+- A educação também é importante para a promoção da igualdade social, pois ajuda a reduzir as desigualdades entre grupos sociais e aumentar a consciência social.
+- A educação também é importante para a melhoria da qualidade de vida, pois ajuda a desenvolver habilidades e conhecimentos que permitem aos indivíduos melhorar suas condições de vida.
+- Por fim, a educação é essencial para o desenvolvimento de uma sociedade, pois ajuda a promover o crescimento econômico, a melhoria da qualidade de vida e a promoção da igualdade social.

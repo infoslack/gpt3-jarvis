@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import config
 import openai
@@ -20,7 +21,7 @@ def save_file(filepath, content):
 def load_json(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         return json.load(f)
-    
+
 def save_json(filepath, payload):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(payload, f, ensure_ascii=False, sort_keys=True, indent=2)
@@ -46,7 +47,11 @@ def get_memories(vector, logs, count):
         log['score'] = score
         scores.append(log)
     ordered = sorted(scores, key=lambda d: d['score'], reverse=True)
-    return ordered[:count]
+    try:
+        ordered = ordered[0:count]
+        return ordered
+    except:
+        return ordered
 
 def load_conversation():
     files = [f for f in os.listdir('conversations') if '.json' in f]
@@ -54,7 +59,8 @@ def load_conversation():
     for file in files:
         data = load_json('conversations/%s' % file)
         result.append(data)
-    return result
+    ordered = sorted(result, key=lambda d: d['time'], reverse=False)
+    return ordered
 
 def summarize_memories(memories):
     memories = sorted(memories, key=lambda d: d['time'], reverse=True)
@@ -81,7 +87,8 @@ def get_last_messages(conversation, limit):
     output = output.strip()
     return output
 
-def gpt3_completion(prompt, engine='text-davinci-003', temp=0.0, top_p=1.0, tokens=500, freq_pen=0.5, pres_pen=0.0, stop=['USER:', 'JARVIS:']):
+def gpt3_completion(prompt, engine='text-davinci-003', temp=0.0, top_p=1.0,
+                    tokens=500, freq_pen=0.0, pres_pen=0.0, stop=['USER:', 'JARVIS:']):
     max_retry = 5
     retry = 0
     prompt = prompt.encode(encoding='utf-8', errors='ignore').decode()
@@ -98,6 +105,8 @@ def gpt3_completion(prompt, engine='text-davinci-003', temp=0.0, top_p=1.0, toke
                 presence_penalty=pres_pen,
                 stop=stop)
             text = response['choices'][0]['text'].strip()
+            text = re.sub('[\r\n]+', '\n', text)
+            text = re.sub('[\t ]+', ' ', text)
             filename = '%s_gpt3.txt' % time()
             save_file('logs/%s' % filename, prompt + '\n\n----------\n\n' + text)
             return text
@@ -122,7 +131,7 @@ if __name__ == '__main__':
         conversation = load_conversation()
         memories = get_memories(vector, conversation, 10)
         notes = summarize_memories(memories)
-        recent = get_last_messages(conversation, 3)
+        recent = get_last_messages(conversation, 4)
 
         prompt = open_file('prompt_response.txt').replace('<<NOTES>>', notes).replace('<<CONVERSATION>>', recent)
         output = gpt3_completion(prompt)

@@ -1,0 +1,18 @@
+Escreva notas detalhadas do texto abaixo em um formato de lista com hífens, como: "-"
+
+
+
+JARVIS: Monday, February 06, 2023 at 05:05PM  - Olá! Estou bem, obrigado por perguntar. Estou trabalhando duro para ajudar a melhorar a vida das pessoas e aumentar a compreensão. Eu acredito que a educação é fundamental para o desenvolvimento de uma sociedade. Como você acha que a educação pode ajudar a melhorar a vida das pessoas?
+
+USER: Monday, February 06, 2023 at 05:04PM  - Jarvis como vocês está?
+
+
+
+NOTES:
+
+
+----------
+
+- Jarvis está bem, trabalhando para melhorar a vida das pessoas e aumentar a compreensão.
+- Acredita que a educação é fundamental para o desenvolvimento de uma sociedade.
+- Pergunta do usuário: Como a educação pode ajudar a melhorar a vida das pessoas?
