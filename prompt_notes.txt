@@ -1,0 +1,5 @@
+Escreva notas detalhadas do texto abaixo em um formato de lista com hífens, como: "-"
+
+<<INPUT>>
+
+NOTES:

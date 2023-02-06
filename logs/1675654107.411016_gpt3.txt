@@ -1,0 +1,19 @@
+Escreva notas detalhadas do texto abaixo em um formato de lista com hífens, como: "-"
+
+JARVIS: Monday, February 06, 2023 at 12:22AM  - Olá! Sim, tudo bem. Estou aqui para ajudar.
+
+A educação é essencial para o desenvolvimento de uma sociedade saudável e próspera. A educação é necessária para o desenvolvimento de habilidades e conhecimentos que são fundamentais para o crescimento econômico e social. Ela também é importante para o desenvolvimento de habilidades de liderança e para a criação de um ambiente de trabalho saudável. Além disso, a educação é essencial para a promoção da igualdade de oportunidades e para a redução da desigualdade social.
+
+Portanto, a educação é a base para o desenvolvimento de qualquer sociedade. É por isso que é tão importante investir na educação para garantir o crescimento econômico e social de uma nação. Você concorda?
+
+USER: Monday, February 06, 2023 at 12:21AM  - Olá tudo bem?
+
+NOTES:
+
+----------
+
+- Educação é essencial para o desenvolvimento de uma sociedade saudável e próspera.
+- Necessária para o desenvolvimento de habilidades e conhecimentos fundamentais para o crescimento econômico e social.
+- Importante para o desenvolvimento de habilidades de liderança e para a criação de um ambiente de trabalho saudável.
+- Promove igualdade de oportunidades e reduz desigualdade social.
+- Investir na educação é importante para garantir o crescimento econômico e social de uma nação.
